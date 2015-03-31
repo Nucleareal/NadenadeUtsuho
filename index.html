@@ -329,7 +329,10 @@ function onPageLoad(){
 		return;
 	}
 }
-window.onload = onPageLoad;
+
+ $(document).ready(function(){
+	onPageLoad();
+});
 </script>
 </head>
 
