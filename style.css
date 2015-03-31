@@ -41,11 +41,11 @@ textarea{
 
 .godswitch{
 	position: fixed;
-	margin-top: 68em;
+	margin-top: 36em;
 	padding: 1em;
 	width: 0em;
 	height: 0em;
-	background-color: #FFFFFF !important;
+	background-color: #FF0000 !important;
 }
 
 a{
