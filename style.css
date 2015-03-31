@@ -1,0 +1,75 @@
+body{
+	background-color: #FFFFFF !important;
+	font-family: "刻明朝 Regular", "小塚ゴシック Pro R", "Meiryo UI","メイリオ", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	margin: 4em;
+}
+
+.utsuho{
+	width: 320px;
+	height: 320px;
+	position: fixed;
+	margin-left: 0em;
+	margin-top: 2em;
+}
+.acb{
+	width: 10vw;
+}
+.actbutton{
+	position: fixed;
+	margin-left: 0em;
+	margin-top:  0em;
+}
+.phrase{
+	position: fixed;
+	margin-top: 22em;
+	width: 16vw;
+}
+.console{
+	position: fixed;
+	margin-top: 27em;
+	width:80%;
+	height:100%;
+}
+
+textarea{
+	width:100%;
+	height:30%;
+}
+
+
+
+.godswitch{
+	position: fixed;
+	margin-top: 68em;
+	padding: 1em;
+	width: 0em;
+	height: 0em;
+	background-color: #FFFFFF !important;
+}
+
+a{
+    color: #FFFFFF;
+    font-style:normal;
+    text-decoration:none;
+}
+a:link {
+    color: #FFFFFF;
+    font-style:normal;
+    text-decoration:none;
+}
+a:visited {
+    color: #FFFFFF;
+    font-style:normal;
+    text-decoration:none;
+}
+a:hover {
+    color: #FFFFFF;
+    font-style:normal;
+    text-decoration:none;
+}
+a:active {
+	color: #FFFFFF;
+    font-style:normal;
+    text-decoration:none;
+}
