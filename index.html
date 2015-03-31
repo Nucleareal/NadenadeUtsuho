@@ -95,13 +95,13 @@ function stateChange(isResetPasted){
 	if(nadecount >= 2 && !isAnotherVisible){
 		isAnotherVisible = true;
 		for(var i = 2; i <= action_limit; i++){
-			var mg = (i-1)*3+'vw';
+			var mg = (i-1)*4+'em';
 			$('#action'+i).css({'display': 'block', 'marginLeft': mg});
 		}
 	}
 	if(nadecount >= 50 && !isInvisibleAngry)
 	{
-		$('#action6').css({'display': 'block', 'marginLeft': '15vw' });
+		$('#action6').css({'display': 'block', 'marginLeft': '20em' });
 	}
 	
 	localStorage.setItem("isInvisibleAngry", isInvisibleAngry);
@@ -196,7 +196,7 @@ function action2(){
 		isAngry = isInvisibleAngry = true;
 		if(!isUtsuhoHasGone)
 		{
-			$('#action5').css({'display': 'block', 'marginLeft': '12vw' });
+			$('#action5').css({'display': 'block', 'marginLeft': '16em' });
 		}
 	}});
 }
