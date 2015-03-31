@@ -1,0 +1,203 @@
+section {
+	height: 100em;
+}
+
+a{
+    color: #1F1FFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:link {
+    color: #1F1FFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:visited {
+    color: #00007F;
+    text-decoration:underline;
+}
+a:hover {
+    color: #FFFFFF;
+    font-style:normal;
+    text-decoration:underline;
+}
+a:active {
+    text-decoration:none;
+}
+
+body{
+	background: #DFEFFF;
+	font-family: "刻明朝 Regular", "小塚ゴシック Pro R", "Meiryo UI","メイリオ", sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+.失踪予定{
+	opacity: 0.5;
+	color: rgba(0, 0, 127, 0.3);
+}
+
+.blue{
+color: #3FBFFF;
+}
+
+dl
+{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+dt{
+	font-size: 1em;
+	float: none;
+}
+dd{
+	margin: 0.25em;
+	margin-top: 0.5em;
+	margin-bottom: 4em;
+	margin-left: 0.5em;
+	font-size: 0.5em;
+}
+
+.twitter{
+	width: 1em;
+	height: 1em;
+	padding: 0em 0.5em 1em 0.5em;
+	background-color: #FFFFFF;
+	float:left;
+	margin-right: 0.5em;
+}
+
+.pixiv{
+	width: 2em;
+	height: 1em;
+	padding: 0em 0.5em 1em 0.5em;
+	background-color: #FFFFFF;
+	float:left;
+	margin-right: 0.5em;
+}
+
+img.twitter
+{
+	alt: twitter;
+}
+img.pixiv
+{
+	alt: pixiv;
+}
+
+.hero-unit h1 {
+	font-size: 1.1rem;
+}
+.hero-unit p {
+	font-size: 1.8rem;
+}
+.hero-unit {
+	padding: 1em;
+}
+
+#herounit{
+	position: fixed;
+	width: 100%;
+	height: 2.6em;
+	text-align:center;
+	
+	padding: 0.25em;
+	margin: 0em;
+
+	background: linear-gradient(#1C4678, #1D93CD);
+	background: -moz-linear-gradient(left 90deg, #1D93CD, #1C4678);
+	background: -webkit-gradient(linear, left top, left bottom, from(#1C4678), to(#1D93CD));
+	color: #FFFFFF;
+	
+	white-space: nowrap;
+
+	font-weight: bold;
+	text-shadow:
+	2px 2px 1px #00007F,
+	-2px 2px 1px #00007F,
+	2px -2px 1px #00007F,
+	-2px -2px 1px #00007F;
+}
+
+h1{
+	color: #FFFFFF;
+	margin-bottom: 0.5em;
+	
+	text-shadow:
+	1px 1px 1px #00007F,
+	-1px 1px 1px #00007F,
+	1px -1px 1px #00007F,
+	-1px -1px 1px #00007F;
+}
+
+.inside{
+	margin-top: -1em;
+	margin-right: 1em;
+	float: left;
+	white-space: nowrap;
+}
+
+.indent{
+	margin-left: 1em;
+	font-size: 1em;
+}
+
+.open {
+	width: 100%;
+	color: #1F5FAF;
+	position: fixed;
+	margin-left: 8em;
+	margin-top: 6.5em;
+	opacity: 0;
+	float: left;
+	white-space: nowrap;
+}
+
+.noscript {
+	color: #000000;
+	position: fixed;
+	margin: 1rem;
+	margin-top: 9rem;
+	font-size: 1rem;
+}
+
+#menu ul{ 
+	margin: 0;
+	margin-top: 4em; 
+	padding: 0; 
+	list-style: none; 
+	width: 100%;
+	height: 1em; 
+	position: fixed;
+}
+#menu li{ 
+	border: 1px solid #000000;
+	font-size: 0.5em;
+	font-weight: bold;
+	display: inline; 
+	padding: 0; 
+	margin: -1px; 
+	float: left;
+	width: 25%;
+}
+#menu li a{
+	display: block; 
+	border-left: 0.5em solid #7F7FFF;
+	background-color: #1C4678;
+	padding: 0.8em 0.25em;
+	text-decoration: none;
+	color: #FFFFFF;
+	width: 100%; 
+	margin: 0em;
+	text-align: left;
+	font-size: 1em;
+}
+#menu li a:hover{
+	border-left: 0.5em solid #0000FF;
+	background-color: #1C4678;
+}
+
+.noticetester{
+	background-color: #FF0000;
+	padding: 1em;
+}
